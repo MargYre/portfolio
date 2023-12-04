@@ -6,9 +6,9 @@ img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   Site e-commerce pour Kanap - Intégration Dynamique
 tags:
-  - html
-  - css
   - javascript
+  - node js
+  - express
 ---
 
 La mission consistait à créer une plateforme de commerce électronique pour Kanap, une marque de canapés qui cherchait à étendre ses ventes en ligne tout en maintenant sa boutique physique.
