@@ -44,6 +44,9 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
+				<!--<div class="button-container">
+						<a href="{entry.data.link}" class="custom-button" style="text-decoration: none;">aperçu</a>
+				</div>-->
 				<div class="stack gap-10 content">
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 					<div class="content">
@@ -79,6 +82,26 @@ const { Content } = await entry.render();
 		display: flex;
 		gap: 0.5rem;
 	}
+
+	.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-button {
+    color: var(--accent-text-over);
+    border: 1px solid var(--accent-regular);
+    background-color: var(--accent-regular);
+    border-radius: 999rem;
+    padding: 10px 20px;
+	margin: 0.5rem;
+    font-size: 16px;
+  }
+
+  .custom-button:hover {
+    background-color: var(--accent-subtle-overlay);
+  }
 
 	.description {
 		font-size: var(--text-lg);
