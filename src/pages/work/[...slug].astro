@@ -32,7 +32,7 @@ const { Content } = await entry.render();
 		<div class="stack gap-15">
 			<header>
 				<div class="wrapper stack gap-2">
-					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
+					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> projets</a>
 					<Hero title={entry.data.title} align="start">
 						<div class="details">
 							<div class="tags">
@@ -46,7 +46,7 @@ const { Content } = await entry.render();
 			<main class="wrapper">
 				{entry.data.is_preview === true && (
 					<div class="button-container">
-						<a href={entry.data.link} target="_blank" class="custom-button" style="text-decoration: none;">aperçu</a>
+						<a href={entry.data.link} target="_blank" class="custom-button" style="text-decoration: none;">Aperçu</a>
 					</div>
 				)}
 				{console.log(entry)}
@@ -93,18 +93,23 @@ const { Content } = await entry.render();
   }
 
   .custom-button {
-    color: var(--accent-text-over);
-    border: 1px solid var(--accent-regular);
-    background-color: var(--accent-regular);
-    border-radius: 999rem;
-    padding: 10px 20px;
-	margin: 0.5rem;
-    font-size: 16px;
-  }
+  padding: 10px 20px;
+  margin: 20px 20px;
+  border-radius: 999rem;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--accent-text-over);
+  background: var(--gradient-accent-orange); /* Set your background color here */
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+  transition: background-position 0.3s, color 0.3s; /* Add a transition for smooth color change */
+}
 
-  .custom-button:hover {
-    background-color: var(--accent-subtle-overlay);
-  }
+.custom-button:hover {
+  color: /* Your hover text color, if different */ var(--accent-text-over);
+  background-position: 0% 0%; /* Move the background position to the top to reveal the highlight */
+  /* Add any other hover styles you want */
+}
 
 	.description {
 		font-size: var(--text-lg);
