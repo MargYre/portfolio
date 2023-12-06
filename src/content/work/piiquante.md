@@ -1,7 +1,5 @@
 ---
-title: Piiquante
-  - html
-  - css / hot takes
+title: Piiquante / hot takes
 publishDate: 2020-03-02 00:00:00
 img: /assets/piiquante.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
@@ -14,6 +12,8 @@ tags:
   - mongo db
   - hemlet
   - dotenv
+link: https://margyre.github.io/P2-MaquetteHtmlCss/#article3
+is_preview: false
 ---
 
 Le projet consistait à développer une API pour l'application web "Hot Takes" de la marque de condiments à base de piment, Piiquante. Cette application permettrait aux utilisateurs de télécharger et de partager leurs sauces piquantes préférées, tout en permettant des interactions telles que "like" et "dislike" pour les sauces partagées par d'autres utilisateurs.

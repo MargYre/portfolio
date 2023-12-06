@@ -9,6 +9,8 @@ tags:
   - javascript
   - node js
   - express
+link: https://margyre.github.io/P2-MaquetteHtmlCss/#article3
+is_preview: false
 ---
 
 La mission consistait à créer une plateforme de commerce électronique pour Kanap, une marque de canapés qui cherchait à étendre ses ventes en ligne tout en maintenant sa boutique physique.

@@ -9,6 +9,8 @@ tags:
   - SEO
   - Optimisation
   - accessibilité
+link: https://margyre.github.io/P2-MaquetteHtmlCss/#article3
+is_preview: false
 ---
 
 Le projet visait à améliorer le référencement du site web de l'agence La Panthère, une grande agence de web design basée à Lyon. L'entreprise avait constaté une perte de visibilité en ligne, et Sophie, la fondatrice, a identifié le besoin crucial d'optimiser le classement du site sur les moteurs de recherche.

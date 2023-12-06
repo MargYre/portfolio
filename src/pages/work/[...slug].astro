@@ -44,9 +44,12 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<!--<div class="button-container">
-						<a href="{entry.data.link}" class="custom-button" style="text-decoration: none;">aperçu</a>
-				</div>-->
+				{entry.data.is_preview === true && (
+					<div class="button-container">
+						<a href={entry.data.link} target="_blank" class="custom-button" style="text-decoration: none;">aperçu</a>
+					</div>
+				)}
+				{console.log(entry)}
 				<div class="stack gap-10 content">
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 					<div class="content">

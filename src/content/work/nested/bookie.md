@@ -9,6 +9,7 @@ tags:
   - html
   - css
 link: https://margyre.github.io/P2-MaquetteHtmlCss/#article3
+is_preview: true
 ---
 
 Le projet Booki consistait en la création d'une maquette de site web permettant aux utilisateurs de visualiser des hébergements et des activités dans diverses villes. La maquette était conçue pour être accessible depuis des ordinateurs de bureau, des tablettes et des smartphones.
