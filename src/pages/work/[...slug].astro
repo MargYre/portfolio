@@ -87,29 +87,28 @@ const { Content } = await entry.render();
 	}
 
 	.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+		display: flex;
+		justify-content: center;
+		align-items: center;
+  	}
 
-  .custom-button {
-  padding: 10px 20px;
-  margin: 20px 20px;
-  border-radius: 999rem;
-  font-size: 16px;
-  text-decoration: none;
-  color: var(--accent-text-over);
-  background: var(--gradient-accent-orange); /* Set your background color here */
-  background-size: 100% 200%;
-  background-position: 0% 100%;
-  transition: background-position 0.3s, color 0.3s; /* Add a transition for smooth color change */
-}
+  	.custom-button {
+		padding: 10px 20px;
+		margin: 20px 20px;
+		border-radius: 999rem;
+		font-size: 16px;
+		text-decoration: none;
+		color: var(--accent-text-over);
+		background: var(--gradient-accent-orange); /* Set your background color here */
+		background-size: 100% 200%;
+		background-position: 0% 100%;
+		transition: background-position 0.3s, color 0.3s; /* Add a transition for smooth color change */
+	}
 
-.custom-button:hover {
-  color: /* Your hover text color, if different */ var(--accent-text-over);
-  background-position: 0% 0%; /* Move the background position to the top to reveal the highlight */
-  /* Add any other hover styles you want */
-}
+	.custom-button:hover {
+		color: /* Your hover text color, if different */ var(--accent-text-over);
+		background-position: 0% 0%; /* Move the background position to the top to reveal the highlight */
+	}
 
 	.description {
 		font-size: var(--text-lg);
