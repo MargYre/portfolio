@@ -34,12 +34,13 @@ const projects = (await getCollection('work'))
 					tagline="Développeuse créative, actuellement en région parisienne."
 					align="start"
 				>
-					<div class="roles">
-						<!--<Pill><Icon icon="code" size="1.33em" /> Developpeuse</Pill>-->
-						<div class="button-container">
+				<div class="button-container">
 						<a href="/assets/CV-Margaux-Tarayre-Dev-Web-react.pdf" download="CV-Margaux-Tarayre-Dev-Web-react.pdf" class="custom-button" style="text-decoration: none;">Télécharger mon cv</a>
 					</div>
-						<!--<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
+					<div class="roles">
+					<!--<Pill><Icon icon="code" size="1.33em" /> Developpeuse</Pill>
+						
+						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>-->
 					</div>
 					
@@ -106,6 +107,29 @@ const projects = (await getCollection('work'))
 		object-position: top;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+	}
+	.button-container {
+		display: flex;
+		justify-content: left;
+		align-items: center;
+  	}
+
+  	.custom-button {
+		padding: 10px 20px;
+		margin: 10px 0px;
+		border-radius: 999rem;
+		font-size: 16px;
+		text-decoration: none;
+		color: var(--accent-text-over);
+		background: var(--gradient-accent-orange); /* Set your background color here */
+		background-size: 100% 200%;
+		background-position: 0% 100%;
+		transition: background-position 0.3s, color 0.3s; /* Add a transition for smooth color change */
+	}
+
+	.custom-button:hover {
+		color: /* Your hover text color, if different */ var(--accent-text-over);
+		background-position: 0% 0%; /* Move the background position to the top to reveal the highlight */
 	}
 
 	@media (min-width: 50em) {
@@ -208,29 +232,6 @@ const projects = (await getCollection('work'))
 		.cta {
 			grid-area: cta;
 		}
-	}
-	.button-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-  	}
-
-  	.custom-button {
-		padding: 10px 20px;
-		margin: 10px 0px;
-		border-radius: 999rem;
-		font-size: 16px;
-		text-decoration: none;
-		color: var(--accent-text-over);
-		background: var(--gradient-accent-orange); /* Set your background color here */
-		background-size: 100% 200%;
-		background-position: 0% 100%;
-		transition: background-position 0.3s, color 0.3s; /* Add a transition for smooth color change */
-	}
-
-	.custom-button:hover {
-		color: /* Your hover text color, if different */ var(--accent-text-over);
-		background-position: 0% 0%; /* Move the background position to the top to reveal the highlight */
 	}
 
 	/* ====================================================== */
