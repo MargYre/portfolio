@@ -110,7 +110,7 @@ const projects = (await getCollection('work'))
 	}
 	.button-container {
 		display: flex;
-		justify-content: left;
+		justify-content: center;
 		align-items: center;
   	}
 
@@ -150,6 +150,10 @@ const projects = (await getCollection('work'))
 			aspect-ratio: 3 / 4;
 			border-radius: 4.5rem;
 			object-fit: cover;
+		}
+		
+		.button-container {
+			justify-content: left;
 		}
 	}
 
