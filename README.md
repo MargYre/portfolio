@@ -4,7 +4,7 @@ Bienvenue sur mon portfolio en ligne. Ce dépôt GitHub contient des information
 
 Mon portfolio est conçu avec trois onglets : "Home", "Projets" et "À propos". Chacun de ces onglets offre une expérience différente pour en savoir plus sur moi, mes compétences, projets et expériences professionnelles.
 
-![Texte alternatif de l'image](/public/assets/screen-porfolip-home-top.png)
+![Texte alternatif de l'image](/public/assets/screen-portfolio-home-top.png)
 
 ## Installation
 
