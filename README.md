@@ -14,17 +14,6 @@ Pour lancer mon portfolio localement, suivez ces étapes :
 
 ```bash
 git clone https://github.com/MargYre/portfolio.git
-Naviguez vers le répertoire du projet :
-bash
-Copy code
-cd mon-portfolio
-Installez les dépendances nécessaires en utilisant npm (Node.js doit être installé sur votre machine) :
-bash
-Copy code
-npm install
-Utilisation
-Pour lancer le projet localement, exécutez la commande suivante :
 
-bash
-Copy code
+Pour lancer le projet localement, exécutez la commande suivante :
 npm run dev
