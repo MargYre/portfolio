@@ -14,6 +14,8 @@ Pour lancer mon portfolio localement, suivez ces étapes :
 
 ```bash
 git clone https://github.com/MargYre/portfolio.git
-
+```
 Pour lancer le projet localement, exécutez la commande suivante :
+```bash
 npm run dev
+```
