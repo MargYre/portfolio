@@ -10,8 +10,8 @@ tags:
   - css
   - key frames
   - sass
-link: https://margyre.github.io/P2-MaquetteHtmlCss/#article3
-is_preview: false
+link: https://margyre.github.io/my_Ohmyfood/
+is_preview: true
 ---
 Ohmyfood est un site qui répertorie les menus de restaurants gastronomiques.
 Le site devait être développé en suivant les maquettes fournies, qui couvraient les versions mobile et desktop, ainsi qu'une maquette site incluant des animations. La priorité était de garantir la compatibilité du site avec les appareils mobiles tout en intégrant des animations fluides conformément au brief créatif.
