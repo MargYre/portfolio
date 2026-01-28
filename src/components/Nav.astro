@@ -15,6 +15,8 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 	{ label: 'GitHub', href: 'https://github.com/MargYre', icon: 'github-logo' },
 	{ label: 'Linkedin', href: 'https://www.linkedin.com/in/margaux-tarayre/', icon: 'linkedin-logo' },
 ];
+/** External portfolio link */
+const uxPortfolioLink = { label: 'Portfolio UX/UI', href: 'https://margaux-tarayre.fr/' };
 ---
 
 <nav>
@@ -94,6 +96,10 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 			}
 		</ul>
 		<div class="menu-footer">
+		<a href={uxPortfolioLink.href} class="ux-portfolio-btn" target="_blank" rel="noopener noreferrer">
+		{uxPortfolioLink.label}
+		</a>
+
 			<div class="socials">
 				{
 					iconLinks.map(({ href, icon, label }) => (
@@ -246,7 +252,33 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		border-radius: 0 0 0.75rem 0.75rem;
 		box-shadow: var(--shadow-lg);
 	}
+	.ux-portfolio-btn {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	border-radius: 999rem;
+	font-size: var(--text-sm);
+	font-weight: 500;
+	color: #fff;
+	background: var(--accent-dark);
+	text-decoration: none;
+	transition: 
+		background-color var(--theme-transition),
+		transform 0.2s ease;
+	white-space: nowrap;
+}
 
+.ux-portfolio-btn:hover,
+.ux-portfolio-btn:focus {
+	background: var(--accent-dark);
+	transform: translateY(-2px);
+}
+
+@media (min-width: 50em) {
+	.menu-footer {
+		gap: 1rem;
+	}
+}
 	.socials {
 		display: flex;
 		flex-wrap: wrap;
